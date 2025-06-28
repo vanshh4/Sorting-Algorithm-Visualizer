@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Algorithm Visualizer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sorting Algorithm Visualizer</h1>
+    <p>Visualize Bubble, Merge, and Quick Sort with interactive controls and live performance metrics.</p>
+  </header>
+  <main>
+    <div class="controls">
+      <div>
+        <label for="algorithm">Algorithm:</label>
+        <select id="algorithm">
+          <option value="bubble">Bubble Sort</option>
+          <option value="merge">Merge Sort</option>
+          <option value="quick">Quick Sort</option>
+        </select>
+      </div>
+      <div>
+        <label for="arraySize">Array Size:</label>
+        <input type="range" id="arraySize" min="10" max="100" value="30">
+        <span id="arraySizeValue">30</span>
+      </div>
+      <div>
+        <label for="inputType">Input Type:</label>
+        <select id="inputType">
+          <option value="random">Random</option>
+          <option value="sorted">Sorted</option>
+          <option value="reversed">Reversed</option>
+          <option value="nearly">Nearly Sorted</option>
+        </select>
+      </div>
+      <button id="generate">Generate Array</button>
+    </div>
+    <div class="visualization-row">
+      <div class="visualization-card">
+        <h2 id="algoTitle">Bubble Sort Visualization</h2>
+        <div class="visualization">
+          <canvas id="canvas"></canvas>
+        </div>
+        <div class="animation-controls">
+          <button id="playPause" title="Play/Pause">▶️</button>
+          <button id="stepBack" title="Step Back">⏮️</button>
+          <button id="stepForward" title="Step Forward">⏭️</button>
+          <label for="speed">Speed:</label>
+          <input type="range" id="speed" min="1" max="100" value="50">
+          <span id="speedValue">50</span>
+        </div>
+      </div>
+      <div class="metrics-card">
+        <h3><span class="icon">📊</span>Performance Metrics</h3>
+        <div class="current-algo">
+          <span id="currentAlgo">Bubble Sort</span>
+        </div>
+        <ul class="metrics-list">
+          <li>
+            <span class="icon">⏳</span>
+            Time Complexity
+            <span class="value complexity" id="timeComplexity">O(n²)</span>
+          </li>
+          <li>
+            <span class="icon">💾</span>
+            Space Complexity
+            <span class="value complexity" id="spaceComplexity">O(1)</span>
+          </li>
+        </ul>
+        <hr class="divider" />
+        <div class="section-title">Runtime Statistics</div>
+        <ul class="metrics-list">
+          <li>
+            <span class="label">Comparisons</span>
+            <span class="value yellow" id="comparisons">0</span>
+          </li>
+          <li>
+            <span class="label">Swaps</span>
+            <span class="value red" id="swaps">0</span>
+          </li>
+          <li>
+            <span class="label">Time Elapsed</span>
+            <span class="value time" id="time">0ms</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Made with ❤️ using HTML, CSS, and JavaScript | Educational Tool</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
