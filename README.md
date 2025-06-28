@@ -1,4 +1,4 @@
-Sorting Algorithm Visualizer
+#Sorting Algorithm Visualizer
 ![Sorting Algorithm Visualizer Screenshot, responsive web application to visualize and understand sorting algorithms step-by-step, built with HTML, CSS, and JavaScript.
 
 ✨ Features
