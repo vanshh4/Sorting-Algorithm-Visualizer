@@ -26,17 +26,12 @@ Just open index.html in your browser.
 No build tools or dependencies required.
 
 🖥️ Usage
-Select the algorithm you want to visualize.
-
-Adjust the array size and input type.
-
-Click Generate Array to create a new dataset.
-
-Use the Play/Pause button to animate, or Step Forward/Back to move through each sorting step.
-
-Adjust the speed slider to control animation speed.
-
-Watch the performance metrics update live as the algorithm runs.
+1. Select the algorithm you want to visualize.
+2. Adjust the array size and input type.
+3. Click Generate Array to create a new dataset.
+4. Use the Play/Pause button to animate, or Step Forward/Back to move through each sorting step.
+5. Adjust the speed slider to control animation speed.
+6. Watch the performance metrics update live as the algorithm runs.
 
 # 📂 File Structure
 - index.html
@@ -45,11 +40,9 @@ Watch the performance metrics update live as the algorithm runs.
 - README.md
 
 # 🛠️ Technologies
-HTML5
-
-CSS3 (custom properties, responsive design)
-
-JavaScript (ES6, canvas animation)
+- HTML5
+- CSS3 (custom properties, responsive design)
+- JavaScript (ES6, canvas animation)
 
 # Contributing
 Pull requests are welcome!
