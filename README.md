@@ -2,19 +2,19 @@
 A responsive web application to visualize and understand sorting algorithms step-by-step, built with HTML, CSS, and JavaScript.
 
 ✨ Features
-Visualize Bubble Sort, Merge Sort, and Quick Sort
+- Visualize Bubble Sort, Merge Sort, and Quick Sort
 
-Step-by-step animation of sorting algorithms
+- Step-by-step animation of sorting algorithms
 
-Interactive controls: Play/Pause, Step Forward/Back, Speed adjustment
+- Interactive controls: Play/Pause, Step Forward/Back, Speed adjustment
 
-Customizable array: Size and initial order (Random, Sorted, Reversed, Nearly Sorted)
+- Customizable array: Size and initial order (Random, Sorted, Reversed, Nearly Sorted)
 
-Live performance metrics: Comparisons, Swaps, Time taken
+- Live performance metrics: Comparisons, Swaps, Time taken
 
-Responsive, clean, and modern UI
+- Responsive, clean, and modern UI
 
-Color palette: Deep blue and light pink for a crisp, minimal look
+- Color palette: Deep blue and light pink for a crisp, minimal look
 
 🚀 Getting Started
 1. Clone the repository bash
