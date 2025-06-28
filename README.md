@@ -1,4 +1,4 @@
-#Sorting Algorithm Visualizer
+# Sorting Algorithm Visualizer
 ![Sorting Algorithm Visualizer Screenshot, responsive web application to visualize and understand sorting algorithms step-by-step, built with HTML, CSS, and JavaScript.
 
 ✨ Features
@@ -62,15 +62,11 @@ CSS3 (custom properties, responsive design)
 
 JavaScript (ES6, canvas animation)
 
-🤝 Contributing
+# Contributing
 Pull requests are welcome!
 For major changes, please open an issue first to discuss what you would like to change.
 
-📄 License
-MIT
-
-🙏 Acknowledgements
+# Acknowledgements : 
 Inspired by classic sorting visualizer projects and interactive CS education tools.
-
 UI colors inspired by coolors.co.
 If you use this visualizer in your coursework or portfolio, a star ⭐️ on GitHub is appreciated!
